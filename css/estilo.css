@@ -1,0 +1,454 @@
+@charset "UTF-8";
+
+/*=============Identificadores=============*/
+#idBanner div div div h3{
+	margin: 1% 0;
+	font-family: 'Norican', cursive;
+	font-size: 7em;
+	text-shadow: 1px 2px 7px #424242;
+        -webkit-text-shadow: 1px 2px 7px #424242;
+        -o-text-shadow: 1px 2px 7px #424242;
+		-moz-text-shadow: 1px 2px 7px #424242;
+}
+#idBody{
+	background: url(../img/fondo.jpg) no-repeat center top fixed;
+	background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+}
+#idCompartirWhatsapp a{
+	margin: -0.25rem 0;
+	padding: 0.15rem 0.3rem 0.15rem 0.3rem;
+	background-color: #3C8A38;
+	border-radius: 0.15rem;
+		-webkit-border-radius: 0.15rem;
+	    -o-border-radius: 0.15rem;
+	    -moz-border-radius: 0.15rem;	
+	font-size: 0.7em;
+	font-weight: bold;
+	text-align: center;
+	color: white; 
+}
+#idCompartirWhatsapp a:hover{
+	background-color: #1D5C1A;
+	color: white; 
+	text-decoration: none;
+}
+#idCompartirWhatsapp a img{
+	height: 0.8rem;
+	margin-top: -0.2rem;
+	margin-right: 0.3rem;
+}
+#idPanelAbout{
+	margin-bottom: 2%;
+	padding: 1% 0;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 0.5rem;
+		-webkit-border-radius: 0.5rem;
+	    -o-border-radius: 0.5rem;
+	    -moz-border-radius: 0.5rem;
+}
+#idPanelAbout div h5{
+	margin: 1% 0;
+	font-family: 'Norican', cursive;
+	font-size: 2.2em;
+	text-shadow: 1px 2px 3px #424242;
+        -webkit-text-shadow: 1px 2px 3px #424242;
+        -o-text-shadow: 1px 2px 3px #424242;
+		-moz-text-shadow: 1px 2px 3px #424242;
+}
+#idPanelAbout div p{
+	margin: 1% 1% 3% 1%;
+	font-size: 1.2em;
+	text-indent: 5%;
+	text-align: justify;
+}
+#idPanelHomeAside{
+	height: 100%;
+	clear: both;
+	padding: 0 0 0 3%;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 0.5rem;
+		-webkit-border-radius: 0.5rem;
+	    -o-border-radius: 0.5rem;
+	    -moz-border-radius: 0.5rem;
+}
+#idPanelHomeSection{
+	padding: 1% 0 1% 1%;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 0.5rem;
+		-webkit-border-radius: 0.5rem;
+	    -o-border-radius: 0.5rem;
+	    -moz-border-radius: 0.5rem;
+}
+#idPanelHomeSection article div h5{
+	margin: 1% 0;
+	font-family: 'Norican', cursive;
+	font-size: 2em;
+	text-shadow: 1px 2px 3px #424242;
+        -webkit-text-shadow: 1px 2px 3px #424242;
+        -o-text-shadow: 1px 2px 3px #424242;
+		-moz-text-shadow: 1px 2px 3px #424242;
+}
+#idPanelHomeSection article div video{
+	border: 2px solid black;
+}
+#idPanelHomeSection article div figure{
+	border: 2px solid black;
+}
+#idPanelHomeQuestion{
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 0.5rem;
+		-webkit-border-radius: 0.5rem;
+	    -o-border-radius: 0.5rem;
+	    -moz-border-radius: 0.5rem;
+}
+#idPanelFooter div {
+	margin-top: 1.5%;
+	padding: 0.5% 0;
+	background-color: #332F2F;
+	box-shadow: -5px -5px 15px #3B0B17;
+        -webkit-box-shadow: -5px -5px 15px #3B0B17;
+        -o-box-shadow: -5px -5px 15px #3B0B17;
+		-moz-box-shadow: -5px -5px 15px #3B0B17;
+	color: white;
+	text-align: center;
+}
+#idPanelPaginacion li a{
+	background-color: rgba(0, 0, 0, 0.7);
+	border-color: black;
+	color: pink;
+}
+#idPanelPaginacion li a:hover{
+	background-color: black;
+	color: white;
+}
+#idPanelSesion{
+	background-color: #332F2F;
+	text-align: center;
+	background-image: radial-gradient(#5E2932, #332F2F 75%);
+		background: -webkit-radial-gradient(#5E2932, #332F2F 75%);
+		background: -webkit-radial-gradient(#5E2932, #332F2F 75%);
+		background: -webkit-radial-gradient(#5E2932, #332F2F 75%);
+}
+#idPanelSesion div {
+	position: absolute;
+  	right: 1%; 
+  	top: 2%;
+	padding: 1%;
+	background-color: #424242;
+	border-radius: 0.5rem;
+		-webkit-border-radius: 0.5rem;
+	    -o-border-radius: 0.5rem;
+	    -moz-border-radius: 0.5rem;
+	box-shadow: -1px -1px 25px black;
+        -webkit-box-shadow: -1px -1px 25px black;
+        -o-box-shadow: -1px -1px 25px black;
+		-moz-box-shadow: -1px -1px 25px black;
+		color: white;
+}
+#idPanelSesion a img {
+	width: 30%;
+	padding: 2%;
+}
+#idPanelSesion div button {
+	height: 26px;
+	padding: 1px 20px 5px 20px;
+	font-size: 0.8rem;
+	border-radius: 28px;
+		-webkit-border-radius: 28px;
+	    -o-border-radius: 28px;
+	    -moz-border-radius: 28px;
+}
+#idTablaResponsive{
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	font-size: 1rem;
+	color: white;
+}
+#idTablaResponsive thead {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+#idTablaResponsive tbody tr td button {
+	background-color: transparent;
+	border: none;
+	color: white;
+}
+#idTablaResponsiveForm{
+	width: 100%;
+	background-color: white;
+	font-size: 1rem;
+}
+#idTablaResponsiveForm thead {
+	background-color: #E9ECEF;
+}
+#idTablaResponsiveForm tbody tr td button{
+	background-color: transparent;
+}
+
+
+
+/*=================Clases==================*/
+.CsEspaciadorVertical1{
+	margin-bottom: 0%;
+}
+.CsEspaciadorVertical2{
+	margin-bottom: 1.5% !important;
+}
+.CsBusquedaTransparente{
+	height: 28px !important;
+	margin-bottom: 0.3%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	font-size: 12px;
+}
+.CsBoton{
+	text-align: center;
+	background-color: #640F28;
+	border-color: white;
+}
+.CsBotonDeseleccionarImagen{
+	margin-top: 2%;
+	margin-right: 2%;
+}
+.CsFotografiaTitulo{
+	margin-top: -7px;
+	height: 2.8rem;
+}
+.CsFotografiaCuerpo{
+	height: 10rem;
+}
+.CsFotografiaCuerpoImg{
+	height: 9.90em;
+	width: 65%;
+	margin: 2% 2% 0 2%;
+	border-radius: 0.7rem;
+		-webkit-border-radius: 0.7rem;
+	    -o-border-radius: 0.7rem;
+	    -moz-border-radius: 0.7rem;		
+}
+.CsFotografiaFooter{
+	height: 3rem;
+}
+.CsFotografiaFooterBoton{
+	background: transparent !important;
+	height:  1.375rem;
+	font-size: 0.7em;
+}
+.CsIconoSocial{
+	width: 4%;
+}
+.Csimagen{
+	height: 97%;
+	width: 96%;
+	margin: 2% 2% 0 2%;
+	border-radius: 0.8rem;
+		-webkit-border-radius: 0.8rem;
+	    -o-border-radius: 0.8rem;
+	    -moz-border-radius: 0.8rem;	
+}
+.CsimagenMedia{
+	height: 97%;
+	width: 96%;
+	margin: 2% 2% 0 2%;
+	border-radius: 0.8rem;
+		-webkit-border-radius: 0.8rem;
+	    -o-border-radius: 0.8rem;
+	    -moz-border-radius: 0.8rem;	
+}
+.CsimagenGrande{
+	width: 100%;
+	margin-top: 3%;
+	border-radius: 0.5rem;
+		-webkit-border-radius: 0.5rem;
+	    -o-border-radius: 0.5rem;
+	    -moz-border-radius: 0.5rem;
+}
+.CsItemNavBar{
+	color: pink !important;
+}
+.CsItemNavBarSelected{
+	color: white !important;
+}
+.CsMenuDesplegable{
+	background-color: #424242;
+	border: none;
+}
+.CsPanelBlog{
+	margin: 1% 0;
+	padding: 1% 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 0.5rem;
+		-webkit-border-radius: 0.5rem;
+	    -o-border-radius: 0.5rem;
+	    -moz-border-radius: 0.5rem;
+}
+.CsPanelContacto{
+	margin-top: 3%;
+}
+.CsPanelContactoCard{
+	height: 95%;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+.CsPanelContactoCardTitulo{
+	font-family: 'Meddon', cursive;
+	font-size: 1.55rem;
+	font-weight: bold;
+	color: pink;
+	text-shadow: 2px 2px 5px #424242;
+        -webkit-text-shadow: 2px 2px 5px #424242;
+        -o-text-shadow: 2px 2px 5px #424242;
+		-moz-text-shadow: 2px 2px 5px #424242;
+}
+.CsPanelImagenPublicacion{
+	height: 11rem;
+}
+.CsRespuestaProceso{
+	color: yellow;
+	font-size: 1.2rem;
+	text-align: center;
+	text-shadow: 2px 2px 7px #424242;
+        -webkit-text-shadow: 2px 2px 7px #424242;
+        -o-text-shadow: 2px 2px 7px #424242;
+		-moz-text-shadow: 2px 2px 7px #424242;
+}
+.CsSeccionTitulo{
+	margin: 2% 0 2% 0.5%;
+	font-family: 'Norican', cursive;
+	font-size: 3.5em;
+	text-align: left;
+	text-shadow: 1px 2px 5px #424242;
+        -webkit-text-shadow: 1px 2px 5px #424242;
+        -o-text-shadow: 1px 2px 5px #424242;
+		-moz-text-shadow: 1px 2px 5px #424242;
+}
+.CsSeparador{
+	height: 2.5px; 
+	margin-bottom: 3%;
+	background-color: rgba(0, 0, 0, 0.25);
+	border: none;
+	box-shadow: -1px -1px 25px black;
+        -webkit-box-shadow: -1px -1px 25px black;
+        -o-box-shadow: -1px -1px 25px black;
+		-moz-box-shadow: -1px -1px 25px black;
+} 
+.CsSeparadoArticulo{
+	width: 25%;
+	margin-bottom: 4%;
+}
+.CsTextoCentradoChico{
+	text-align: center;
+	font-size: 0.8rem;
+}
+.CsVentanaModalSesion{
+	background-color: #332F2F;
+	color: white;
+}
+.CsTextoVertical{
+    writing-mode: vertical-rl;
+    
+}
+
+
+/*================Etiquetas================*/
+table tbody tr:hover{background-color: rgba(255, 204, 204, 0.5) !important;}
+small a:link {text-decoration: none;}
+small a:visited {text-decoration: none;}
+small a {color: red;}
+
+
+/*=====Diseño Adaptativo - Small 576px=====*/
+@media (max-width: 576px) { 
+	#idBanner div div img{
+		height: 7rem;
+	}
+	#idBanner div div div h3{
+		font-size: 2em;
+	}
+	#idBody{
+		background: url(../img/fondo_min.jpg) no-repeat center top fixed;
+	}
+	#idPanelSesion a img{
+		width: 80%;
+		padding: 5%;
+	}
+	#idPanelSesion div{
+		position: relative;
+		display: inline-flex;
+		right: 0;
+		height: 34px;
+		border-radius: 0;
+			-webkit-border-radius: 0;
+		    -o-border-radius: 0;
+		    -moz-border-radius: 0;
+	}
+	#idTablaResponsive{
+		font-size: 0.7rem;
+	}
+	#idTablaResponsiveForm{
+		font-size: 0.7rem;
+	}
+	#idPanelFooter div{
+		margin-top: 2.5%;
+	}
+	.CsLetraMasChica{
+		font-size: 0.8em;	
+	}
+	.CsBusquedaTransparente{
+		margin-bottom: 1%;
+	}
+	.CsEspaciadorVertical1{
+		margin-bottom: 4%;
+	}
+	.CsIconoSocial{
+		width: 12%;
+	}
+	.Csimagen{		height: 94%;
+		margin-top: 5%;
+	}
+	.CsimagenGrande{
+		height: 96%;
+		margin-top: 3%;
+	}
+	.CsPanelContactoCardTitulo{
+		font-size: 0.9rem;
+    }
+	.CsPanelImagenPublicacion{
+		height: 13rem;
+	}
+	.CsRespuestaProceso{
+		font-size: 0.9em;
+	}
+    .CsSeccionTitulo{
+		margin: 3% 0 3% 3%;
+		font-size: 2.5em;
+		color: white;
+	}	
+	.CsSeparador{
+		margin-bottom: 7%;
+	}
+	.CsSeparadoArticulo{
+		width: 85%;
+		margin-top: 2%;
+	}
+}
+
+
+
+/*=====Diseño Adaptativo - Medium 576px=====*/
+@media (min-width: 577px) and (max-width: 768px) { 
+	#idPanelSesion div a img{
+		width: 50%;
+	}
+	.Csimagen{
+		height: 8.5em;
+		width: 96%;
+	}
+}
+
+
